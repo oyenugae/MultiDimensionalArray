@@ -16,7 +16,6 @@ class Main {
   static void displayRow(char[][]mSquare, int row){
     System.out.printf("The word in row %d is ", row);
       for (int i = 0; i<4; i++){
-
          System.out.print(mSquare[row][i]);    
       }
     }  
